@@ -623,6 +623,7 @@ input[placeholder], [placeholder], *[placeholder] {
 
 .results-item:hover {
 	border-right: 3px solid #A22F2F;
+	background-color: #f5ffe5;
 }
 
 .marker-label {

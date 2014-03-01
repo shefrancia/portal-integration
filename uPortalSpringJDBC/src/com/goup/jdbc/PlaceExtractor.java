@@ -17,8 +17,8 @@ public class PlaceExtractor implements ResultSetExtractor<Place> {
   
   place.setPlaceId(resultSet.getInt(1));
   place.setPlaceName(resultSet.getString(2));
-  place.setPlaceLat(resultSet.getDouble(5));  
-  place.setPlaceLong(resultSet.getDouble(6));  
+  place.setPlaceLat(resultSet.getDouble(3));  
+  place.setPlaceLong(resultSet.getDouble(4));  
   place.setPlaceCategory(resultSet.getString(8));
   
     

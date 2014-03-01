@@ -155,7 +155,7 @@
 	  		<br />
 	  		<div class="icon-title"><a id="screenshot"><span class="menu-icon icon-screenshot"></span>Screenshot</a></div>
 	  		<div class="icon-title"><a><span class="menu-icon icon-help"></span>Help</a></div>
-	  		<div class="icon-title"><a href="home"><span class="menu-icon icon-fire"></span>uPortal</a></div>
+	  		<div class="icon-title"><a href="home"><span class="menu-icon"></span>uPortal</a></div>
 	  	
 	  	</div>
 	  					
@@ -238,13 +238,17 @@
 		  			<div id="routes">
 	  			
 	  				</div>
+	  				
+	  				<div id = "routelength">
+	  				
+	  				</div>
 		  			
 	  			</div>
 	  			
 	  			
 	  	
 
-	  			<div id="results" class="hidden">
+	  			<div id="results" style="display:none;">
 	  			
 	  			</div>
 
@@ -260,71 +264,71 @@
 						</div>
 						
 						<div id="ikot-route-places" class="jeepney-and-places hidden">
-							Virata Hall - Institute of Small Scale Industries (ISSI) <br>
-							New LRT <br>
-							Albert Hall <br>
-							Bartlett Hall (Fine Arts) <br>
-							Village A <br>
-							Village B <br>
-							Hardin ng Doña Aurora Walk - UP Housing <br>
-							Kamagong Residence Hall <br>
-							Engineering Centennial Dorm <br>
-							Barangay Krus Na Ligas <br>
-							Credit Union <br>
-							National Institute of Geological Sciences (NIGS) <br>
-							Alumni Engineers Centennial Building (Engineering Library 2 / DCS)<br>
+							Virata Hall - Institute of Small Scale Industries (ISSI) <br />
+							New LRT <br />
+							Albert Hall <br />
+							Bartlett Hall (Fine Arts) <br />
+							Village A <br />
+							Village B <br />
+							Hardin ng Doña Aurora Walk - UP Housing <br />
+							Kamagong Residence Hall <br />
+							Engineering Centennial Dorm <br />
+							Barangay Krus Na Ligas <br />
+							Credit Union <br />
+							National Institute of Geological Sciences (NIGS) <br />
+							Alumni Engineers Centennial Building (Engineering Library 2 / DCS)<br />
 							College of Science Library and Administration Bldg. (CSLab)
-							Electrical & Electronics Engineering Bldg. 1&2<br>
-							Marine Science Institute (MSI)<br>
-							Science Teacher Training Center<br>
-							Natural Sciences Research Institute (NSRI) Miranda Hall (College Of Science)<br>
-							Vidal Tan Hall (NISMED)<br>
-							ITDC<br>
-							Palma Hall (AS) <br>
-							Pavilion 1 - Institute of Chemistry <br>
-							Pavilion 2 - Institute of Physics <br>
-							Casaa Food Center <br>
-							Kamia Residence Hall <br>
-							Pavilion 3 - Institute of Biology <br>
-							Sampaguita Residence Hall <br>
-							Zoology Building <br>
-							CHE Craft And Design Laboratory (CDL) <br>
-							UP Integrated School (UPIS) <br>
-							Solidor Hall<br>
-							Benton Hall<br>
-							Benitez Hall (Education)<br>
-							Vinzons Hall<br>
-							College of Business Administration<br>
-							School of Economics<br>
-							Malcolm Hall (Law)<br>
-							Romulo Hall (Asian Center & Institute of Islamic Studies)<br>
-							Bocobo Hall (Law Library)<br>
-							Mang Laris (Isaw place)<br>
-							International Center<br>
-							Swimming Pool<br>
-							Ilang-Ilang Residence Hall<br>
-							UP Health Service<br>
-							Parish of The Holy Sacrifice<br>
-							Church of the Risen Lord<br>
-							Shopping Center (SC)<br>
-							Cooperative Grocery<br>
-							Area 2<br>
-							UP Post Office<br>
-							Kalayaan Residence Hall<br>
-							Yakal Residence Hall <br>
-							Molave Residence Hall<br>
-							UP Employees Housing Cooperative (UPEHCO)<br>
-							Film Institute <br>
-							Ang Bahay ng Alumni (TBA)<br>
-							Fonacier Hall (Alumni Center)<br>
-							College of Music Annex<br>
-							UP Center For Women's Studies<br>							
-							College of Social Work & Community Development Complex<br>
-							Archery Range<br>
-							DMST Complex (SURP/Rappel Tower)<br>
-							CHK Gym<br>
-							School of Urban and Regional Planning (SURP)<br>
-							Bonifacio Hall - School of Labor and Industrial Relation (SOLAIR)<br>
+							Electrical & Electronics Engineering Bldg. 1&2<br />
+							Marine Science Institute (MSI)<br />
+							Science Teacher Training Center<br />
+							Natural Sciences Research Institute (NSRI) Miranda Hall (College Of Science)<br />
+							Vidal Tan Hall (NISMED)<br />
+							ITDC<br />
+							Palma Hall (AS) <br />
+							Pavilion 1 - Institute of Chemistry <br />
+							Pavilion 2 - Institute of Physics <br />
+							Casaa Food Center <br />
+							Kamia Residence Hall <br />
+							Pavilion 3 - Institute of Biology <br />
+							Sampaguita Residence Hall <br />
+							Zoology Building <br />
+							CHE Craft And Design Laboratory (CDL) <br />
+							UP Integrated School (UPIS) <br />
+							Solidor Hall<br />
+							Benton Hall<br />
+							Benitez Hall (Education)<br />
+							Vinzons Hall<br />
+							College of Business Administration<br />
+							School of Economics<br />
+							Malcolm Hall (Law)<br />
+							Romulo Hall (Asian Center & Institute of Islamic Studies)<br />
+							Bocobo Hall (Law Library)<br />
+							Mang Laris (Isaw place)<br />
+							International Center<br />
+							Swimming Pool<br />
+							Ilang-Ilang Residence Hall<br />
+							UP Health Service<br />
+							Parish of The Holy Sacrifice<br />
+							Church of the Risen Lord<br />
+							Shopping Center (SC)<br />
+							Cooperative Grocery<br />
+							Area 2<br />
+							UP Post Office<br />
+							Kalayaan Residence Hall<br />
+							Yakal Residence Hall <br />
+							Molave Residence Hall<br />
+							UP Employees Housing Cooperative (UPEHCO)<br />
+							Film Institute <br />
+							Ang Bahay ng Alumni (TBA)<br />
+							Fonacier Hall (Alumni Center)<br />
+							College of Music Annex<br />
+							UP Center For Women's Studies<br />							
+							College of Social Work & Community Development Complex<br />
+							Archery Range<br />
+							DMST Complex (SURP/Rappel Tower)<br />
+							CHK Gym<br />
+							School of Urban and Regional Planning (SURP)<br />
+							Bonifacio Hall - School of Labor and Industrial Relation (SOLAIR)<br />
 							
 						</div>
 						
@@ -336,78 +340,78 @@
 						</div>
 						
 						<div id="toki-route-places" class="jeepney-and-places hidden">
-							Virata Hall - Institute of Small Scale Industries (ISSI) <br>
-							Bonifacio Hall - School of Labor and Industrial Relation (SOLAIR)<br>
-							School of Urban and Regional Planning (SURP)<br>
-							CHK Gym<br>
-							DMST Complex (SURP/Rappel Tower)<br>
-							Archery Range<br>
-							College of Social Work & Community Development Complex<br>
-							UP Center For Women's Studies<br>
-							Alberto Hall - College of Music<br>
-							Dance Studio<br>
-							Plaridel Hall - Mass Communication<br>
-							Quezon Hall - Oble<br>
-							Vargas Musuem<br>
-							Faculty Center<br>
-							Palma Hall(AS)<br>
-							Melchor Hall - College of Enggineering<br>
-							Tennis Court<br>
-							UP Employees Housing Cooperative (UPEHCO)<br>
-							Molave Residence Hall<br>
-							Yakal Residence Hall <br>
-							UP Post Office<br>
-							Area 2<br>
-							Shopping Center (SC)<br>
-							Cooperative Grocery<br>
-							Kalayaan Residence Hall<br>
-							Parish of The Holy Sacrifice<br>
-							Church of the Risen Lord<br>
-							UP Health Service<br>
-							Ilang-Ilang Residence Hall<br>
-							Swimming Pool<br>
-							International Center<br>
-							Isaw Place<br>
-							Bocobo Hall (Law Library)<br>
-							Romulo Hall (Asian Center & Institute of Islamic Studies)<br>
-							Malcolm Hall (Law)<br>
-							National Engineering Center<br>
-							Benton Hall (FAN)<br>
-							Solidor Hall<br>
-							Benitez Hall (Education)<br>
-							Vinzons Hall<br>
-							Lorena Barros Hall<br>
-							Narra Residence Hall<br>
-							CSSP Faculty Building<br>
-							UP Integrated School (UPIS)<br>
-							Alonso Hall (Home Economics Complex)<br>
-							Proposed NIMBB (College of Science)<br>
-							Weather Bureau (Pagasa)<br>
-							Institute of Chemistry Building (College of Science)<br>
-							National Inst. of Physics (NIP) Bldg<br>
-							UP Technology Park (Technology Business Incubator)<br>
-							Advanced Science & Technology Institute (ASTI) Bldg.<br>
-							Institute of Mathematics Bldg. (College of Science)<br>
-							National Institute of Geological Sciences (NIGS)<br>
-							Alumni Engineers Centennial Building (Engineering Library 2 / DCS)<br>
+							Virata Hall - Institute of Small Scale Industries (ISSI) <br />
+							Bonifacio Hall - School of Labor and Industrial Relation (SOLAIR)<br />
+							School of Urban and Regional Planning (SURP)<br />
+							CHK Gym<br />
+							DMST Complex (SURP/Rappel Tower)<br />
+							Archery Range<br />
+							College of Social Work & Community Development Complex<br />
+							UP Center For Women's Studies<br />
+							Alberto Hall - College of Music<br />
+							Dance Studio<br />
+							Plaridel Hall - Mass Communication<br />
+							Quezon Hall - Oble<br />
+							Vargas Musuem<br />
+							Faculty Center<br />
+							Palma Hall(AS)<br />
+							Melchor Hall - College of Enggineering<br />
+							Tennis Court<br />
+							UP Employees Housing Cooperative (UPEHCO)<br />
+							Molave Residence Hall<br />
+							Yakal Residence Hall <br />
+							UP Post Office<br />
+							Area 2<br />
+							Shopping Center (SC)<br />
+							Cooperative Grocery<br />
+							Kalayaan Residence Hall<br />
+							Parish of The Holy Sacrifice<br />
+							Church of the Risen Lord<br />
+							UP Health Service<br />
+							Ilang-Ilang Residence Hall<br />
+							Swimming Pool<br />
+							International Center<br />
+							Isaw Place<br />
+							Bocobo Hall (Law Library)<br />
+							Romulo Hall (Asian Center & Institute of Islamic Studies)<br />
+							Malcolm Hall (Law)<br />
+							National Engineering Center<br />
+							Benton Hall (FAN)<br />
+							Solidor Hall<br />
+							Benitez Hall (Education)<br />
+							Vinzons Hall<br />
+							Lorena Barros Hall<br />
+							Narra Residence Hall<br />
+							CSSP Faculty Building<br />
+							UP Integrated School (UPIS)<br />
+							Alonso Hall (Home Economics Complex)<br />
+							Proposed NIMBB (College of Science)<br />
+							Weather Bureau (Pagasa)<br />
+							Institute of Chemistry Building (College of Science)<br />
+							National Inst. of Physics (NIP) Bldg<br />
+							UP Technology Park (Technology Business Incubator)<br />
+							Advanced Science & Technology Institute (ASTI) Bldg.<br />
+							Institute of Mathematics Bldg. (College of Science)<br />
+							National Institute of Geological Sciences (NIGS)<br />
+							Alumni Engineers Centennial Building (Engineering Library 2 / DCS)<br />
 							College of Science Library and Administration Bldg. (CSLab)
-							Electrical & Electronics Engineering Bldg. 1&2<br>
-							Marine Science Institute (MSI)<br>
-							Science Teacher Training Center<br>
-							Natural Sciences Research Institute (NSRI) Miranda Hall (College Of Science)<br>
-							Vidal Tan Hall (NISMED)<br>
-							ITDC<br>
-							Office of the University Registrar & Office of Admissions (OUR)<br>
-							PAUW Day Care / Children's Playground<br>
-							College of Architecture Bldg 1 & 2<br>
-							University Police/ Fire Department<br>
-							University Press<br>
-							Coral Bldg. Office of Campus Architect (OCA)<br>
-							Villadolid Hall (Archaeological Studies Program)<br>
-							Albert Hall<br>
-							Seaweed Building (MBB)<br>
-							Supply and Property Management Office (SPMO Diliman)<br>
-							New LRT<br>
+							Electrical & Electronics Engineering Bldg. 1&2<br />
+							Marine Science Institute (MSI)<br />
+							Science Teacher Training Center<br />
+							Natural Sciences Research Institute (NSRI) Miranda Hall (College Of Science)<br />
+							Vidal Tan Hall (NISMED)<br />
+							ITDC<br />
+							Office of the University Registrar & Office of Admissions (OUR)<br />
+							PAUW Day Care / Children's Playground<br />
+							College of Architecture Bldg 1 & 2<br />
+							University Police/ Fire Department<br />
+							University Press<br />
+							Coral Bldg. Office of Campus Architect (OCA)<br />
+							Villadolid Hall (Archaeological Studies Program)<br />
+							Albert Hall<br />
+							Seaweed Building (MBB)<br />
+							Supply and Property Management Office (SPMO Diliman)<br />
+							New LRT<br />
 						</div>
 						
 						<div class="jeepney-toggle-wrapper">
@@ -416,43 +420,43 @@
 						</div>
 						
 						<div id="katip-route-places" class="jeepney-and-places hidden">
-							GT Toyota - Asian Center Building<br>
-							Romulo Hall (Asian Center & Institute of Islamic Studies)<br>
-							Bocobo Hall (Law Library)<br>
-							Mang Laris (Isaw place)<br>
-							International Center<br>
-							Swimming Pool<br>
-							Ilang-Ilang Residence Hall<br>
-							UP Health Service<br>
-							Parish of The Holy Sacrifice<br>
-							Church of the Risen Lord<br>
-							Shopping Center (SC)<br>
-							Cooperative Grocery<br>
-							Area 2<br>
-							UP Post Office<br>
-							Kalayaan Residence Hall<br>
-							Yakal Residence Hall <br>
-							Molave Residence Hall<br>
-							UP Employees Housing Cooperative (UPEHCO)<br>
-							Film Institute <br>
-							Ang Bahay ng Alumni (TBA)<br>
-							Fonacier Hall (Alumni Center)<br>
-							College of Music Annex<br>
-							UP Center For Women's Studies<br>
-							Alberto Hall - College of Music<br>
-							Dance Studio<br>
-							Plaridel Hall - Mass Communication<br>
-							Quezon Hall - Oble<br>
-							Vargas Musuem<br>
-							Faculty Center<br>
-							Palma Hall(AS)<br>
-							Benton Hall (FAN)<br>
-							Solidor Hall<br>
-							Benitez Hall (Education)<br>
-							Vinzons Hall<br>
-							College of Business Administration<br>
-							School of Economics<br>
-							Malcolm Hall (Law)<br>
+							GT Toyota - Asian Center Building<br />
+							Romulo Hall (Asian Center & Institute of Islamic Studies)<br />
+							Bocobo Hall (Law Library)<br />
+							Mang Laris (Isaw place)<br />
+							International Center<br />
+							Swimming Pool<br />
+							Ilang-Ilang Residence Hall<br />
+							UP Health Service<br />
+							Parish of The Holy Sacrifice<br />
+							Church of the Risen Lord<br />
+							Shopping Center (SC)<br />
+							Cooperative Grocery<br />
+							Area 2<br />
+							UP Post Office<br />
+							Kalayaan Residence Hall<br />
+							Yakal Residence Hall <br />
+							Molave Residence Hall<br />
+							UP Employees Housing Cooperative (UPEHCO)<br />
+							Film Institute <br />
+							Ang Bahay ng Alumni (TBA)<br />
+							Fonacier Hall (Alumni Center)<br />
+							College of Music Annex<br />
+							UP Center For Women's Studies<br />
+							Alberto Hall - College of Music<br />
+							Dance Studio<br />
+							Plaridel Hall - Mass Communication<br />
+							Quezon Hall - Oble<br />
+							Vargas Musuem<br />
+							Faculty Center<br />
+							Palma Hall(AS)<br />
+							Benton Hall (FAN)<br />
+							Solidor Hall<br />
+							Benitez Hall (Education)<br />
+							Vinzons Hall<br />
+							College of Business Administration<br />
+							School of Economics<br />
+							Malcolm Hall (Law)<br />
 						</div>
 						
 						<div class="jeepney-toggle-wrapper">
@@ -461,42 +465,42 @@
 						</div>
 						
 						<div id="philcoa-route-places" class="jeepney-and-places hidden">
-							Quezon Hall - Oble<br>
-							Vargas Musuem<br>
-							Faculty Center<br>
-							Palma Hall(AS)<br>
-							Benton Hall (FAN)<br>
-							Solidor Hall<br>
-							Benitez Hall (Education)<br>
-							Vinzons Hall<br>
-							College of Business Administration<br>
-							School of Economics<br>
-							Malcolm Hall (Law)<br>
-							Romulo Hall (Asian Center & Institute of Islamic Studies)<br>
-							Bocobo Hall (Law Library)<br>
-							Mang Laris (Isaw place)<br>
-							International Center<br>
-							Swimming Pool<br>
-							Ilang-Ilang Residence Hall<br>
-							UP Health Service<br>
-							Parish of The Holy Sacrifice<br>
-							Church of the Risen Lord<br>
-							Shopping Center (SC)<br>
-							Cooperative Grocery<br>
-							Area 2<br>
-							UP Post Office<br>
-							Kalayaan Residence Hall<br>
-							Yakal Residence Hall <br>
-							Molave Residence Hall<br>
-							UP Employees Housing Cooperative (UPEHCO)<br>
-							Tennis Court<br>
-							Melchor Hall - College of Enggineering<br>
-							Carillon (Andres Bonifacio Centennial Hall)<br>
-							Villamor Hall (UP Theater)<br>
-							Abelardo Hall (Music)<br>
-							Plaridel Hall (Mass Communication)<br>
-							UP Wet Market <br>
-							UP - Ayala Techno Hub <br>
+							Quezon Hall - Oble<br />
+							Vargas Musuem<br />
+							Faculty Center<br />
+							Palma Hall(AS)<br />
+							Benton Hall (FAN)<br />
+							Solidor Hall<br />
+							Benitez Hall (Education)<br />
+							Vinzons Hall<br />
+							College of Business Administration<br />
+							School of Economics<br />
+							Malcolm Hall (Law)<br />
+							Romulo Hall (Asian Center & Institute of Islamic Studies)<br />
+							Bocobo Hall (Law Library)<br />
+							Mang Laris (Isaw place)<br />
+							International Center<br />
+							Swimming Pool<br />
+							Ilang-Ilang Residence Hall<br />
+							UP Health Service<br />
+							Parish of The Holy Sacrifice<br />
+							Church of the Risen Lord<br />
+							Shopping Center (SC)<br />
+							Cooperative Grocery<br />
+							Area 2<br />
+							UP Post Office<br />
+							Kalayaan Residence Hall<br />
+							Yakal Residence Hall <br />
+							Molave Residence Hall<br />
+							UP Employees Housing Cooperative (UPEHCO)<br />
+							Tennis Court<br />
+							Melchor Hall - College of Enggineering<br />
+							Carillon (Andres Bonifacio Centennial Hall)<br />
+							Villamor Hall (UP Theater)<br />
+							Abelardo Hall (Music)<br />
+							Plaridel Hall (Mass Communication)<br />
+							UP Wet Market <br />
+							UP - Ayala Techno Hub <br />
 							
 						</div>
 						
