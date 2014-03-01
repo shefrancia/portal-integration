@@ -34,7 +34,6 @@ form,fieldset{
 	min-height:100%;
 	margin-top: 47px;
 	overflow:hidden;
-	background:url(../images/bg-wrapper.png) repeat-y;
 }
 #content {
 	float:left;
@@ -47,7 +46,10 @@ form,fieldset{
 	padding:26px 13px 0 34px;
 	background:#fff6de;
 }
-.links {float:left;}
+.links {
+	float:left;
+	margin: 50px;
+}
 .links ul {
 	list-style:none;
 	margin:0;
@@ -156,13 +158,10 @@ form,fieldset{
 	padding:19px 0 8px 36px;
 	margin:0 0 1px;
 }
-.tabs h1 {
-	font-size:18px;
-	line-height:20px;
-	margin:0 0 8px;
-	color:#2b333b;
-}
 .tabs p {margin:0 0 10px;}
+.tabs h1{
+	padding: 7px;
+}
 .states {
 	list-style:none;
 	margin:0;
@@ -189,7 +188,9 @@ form,fieldset{
 	position: fixed;
 	float: left;
 	width:75px;
+	height: 100%;
 	padding:18px 1px 0;
+	background:url(../images/bg-wrapper.png) repeat-y;
 }
 #sidebar .shadow {
 	background:url(../images/bg-shadow.png) no-repeat;
@@ -324,4 +325,25 @@ form,fieldset{
 	background: -ms-linear-gradient(top,  #950707 0%,#610202 100%);
 	background: linear-gradient(to bottom,  #950707 0%,#610202 100%);
 	border-top:2px solid #b01919;
+}
+
+#tab-5 table{
+	font-size: 15px;
+}
+
+#tab-5 th, #tab-5 td{
+	padding: 8px;
+}
+
+#btnAdd{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: #f39c12;
+	color: white;
+	width: 140px;
+}
+
+#modifyHtln{
+	padding: 5px 8px;
+	background: #E6E6E6;
 }

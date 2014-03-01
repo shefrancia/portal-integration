@@ -6,6 +6,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href=<c:url value="/resources/css/all.css"/>>
+		<link rel="stylesheet" href=<c:url value="/resources/font-awesome/css/font-awesome.min.css"/>>
 		<link rel="stylesheet" type="text/css" href=<c:url value="/resources/css/ie.css"/>>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.7.2.min.js"><\/script>');</script>

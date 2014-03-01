@@ -14,7 +14,6 @@
 						<div id="tab-1" class="tab">
 							<nav class="links">
 								<ul>
-									
 									<li>
 										<a href="requestList" class="ico2">Requests
 											<c:if test="${numberOfAdminRequests > 0}">
@@ -25,38 +24,18 @@
 								</ul>
 							</nav>
 						</div>
-						<div id="tab-3" class="tab">
-							<style>  
-								    body {  
-								     font-size: 20px;  
-								     color: teal;  
-								     font-family: Calibri;  
-								    }  
-								      
-								    td {  
-								     font-size: 15px;  
-								     color: black;  
-								     width: 100px;  
-								     height: 22px;  
-								     text-align: center;  
-								    }  
-								    .heading {  
-								     font-size: 18px;  
-								     color: white;  
-								     font: bold;  
-								     background-color: orange;  
-								     border: thick;  
-								    }  
-								    </style>  
-								    <body>  
-								     <center>  
-								     <b>Admin List | uPortal </b>  
-								      <table border="1">  
-								       <tr>  
-								        <td class="heading">Username</td>  
-								        <td class="heading">Typename</td>  
-								        <td class="heading">Operations</td>  
-								       </tr>  
+						<div id="tab-3">
+							<center>
+								<h1>Admin List | uPortal </h1>  
+								<table class="pure-table pure-table-striped" >  
+									<thead>
+										<tr>  
+											<th>Username</th>  
+											<th>Typename</th>  
+											<th>Operations</th>  
+										</tr>  
+									</thead>
+								       <tbody>
 								       <c:forEach var="admin" items="${adminList}">  
 								        	<tr>  
 								         	<td>${admin.username}</td>  
@@ -65,183 +44,108 @@
 								        	</tr>  
 								       </c:forEach>  
 								       <c:if test="${adminList.size() == 0}">
-								       	<tr><td colspan="4">No admins </td></tr>  
+								       		<tr><td colspan="4">No admins </td></tr>  
 								       </c:if>
-								      </table>   
-								      
-								     </center>  
+								       </tbody>
+								</table>   
+							</center>
 						</div>
-						<div id="tab-9" class="tab">
-							<style>  
-								    body {  
-								     font-size: 20px;  
-								     color: teal;  
-								     font-family: Calibri;  
-								    }  
-								      
-								    td {  
-								     font-size: 15px;  
-								     color: black;  
-								     width: 100px;  
-								     height: 22px;  
-								     text-align: center;  
-								    }  
-								    .heading {  
-								     font-size: 18px;  
-								     color: white;  
-								     font: bold;  
-								     background-color: orange;  
-								     border: thick;  
-								    }  
-								    </style>  
-								    <body>  
-								     <center>  
-								        
-								       
-								       
-								     <b>Admin Request | uPortal </b>  
-								       
-								      <table border="1">  
-								       <tr>  
-								        <td class="heading">Username</td>  
-								        <td class="heading">Typename</td>  
-								        <td class="heading" colspan="2">Operations</td> 
-								       </tr>  
-								       <c:forEach var="request" items="${adminRequestList}">  
-								        <tr>  
-								         <td>${request.username}</td>  
-								         <td>${request.typename}</td>  
-								         <td><a href="approve_admin?userid=${request.userid}&typeid=${request.typeid}">Approve</a></td>  
-								         <td><a href="decline_admin?userid=${request.userid}&typeid=${request.typeid}">Decline</a></td>  
-								        </tr>  
-								       </c:forEach>  
-								       <c:if test="${numberOfAdminRequests == 0}">
-								       	<tr><td colspan="4">No pending admin requests </td></tr>  
-								       </c:if>
-								      </table>  
-								      
-								     </center>  
+						<div id="tab-9">
+							<center>  
+								<h1>Admin Request | uPortal </h1>   
+								<table class="pure-table pure-table-striped">  
+									<thead>
+										<tr>  
+											<th>Username</th>  
+											<th>Typename</th>  
+											<th colspan="2">Operations</th> 
+										</tr>  
+									</thead>
+									<tbody>
+										<c:forEach var="request" items="${adminRequestList}">  
+											<tr>  
+												<td>${request.username}</td>  
+												<td>${request.typename}</td>  
+												<td><a href="approve_admin?userid=${request.userid}&typeid=${request.typeid}">Approve</a></td>  
+												<td><a href="decline_admin?userid=${request.userid}&typeid=${request.typeid}">Decline</a></td>  
+											</tr>  
+										</c:forEach>  
+										<c:if test="${numberOfAdminRequests == 0}">
+											<tr><td colspan="4">No pending admin requests </td></tr>  
+										</c:if>
+									</tbody>
+								</table>  								      
+							</center>  
 						</div>
-						
-						
-						<div id="tab-4" class="tab">
-							         <style>  
-							    body {  
-							     font-size: 20px;  
-							     color: teal;  
-							     font-family: Calibri;  
-							    }  
-							      
-							    td {  
-							     font-size: 15px;  
-							     color: black;  
-							     width: 100px;  
-							     height: 22px;  
-							     text-align: center;  
-							    }  
-							    .heading {  
-							     font-size: 18px;  
-							     color: white;  
-							     font: bold;  
-							     background-color: orange;  
-							     border: thick;  
-							    }  
-							    </style>  
-							    <body>  
-							     <center>  
-							        
-							       
-							       
-							     <b>User List | uPortal </b>  
-							       
-							      
-							         
-							        
-							      
-							      <table border="1">  
-							       <tr>  
-							        <td class="heading">User Id</td>  
-							        <td class="heading">First Name</td>  
-							        <td class="heading">Last Name</td>  
-							        <td class="heading">Email</td>  
-							        <td class="heading">Username</td>
-							        <td class="heading">Password</td>  
-							        <td class="heading">Edit</td>  
-							        <td class="heading">Delete</td>  
-							       </tr>  
-							       <c:forEach var="user" items="${userList}">  
-							        <tr>  
-							         <td>${user.userId}</td>  
-							         <td>${user.firstName}</td>  
-							         <td>${user.lastName}</td>  
-							         <td>${user.email}</td>  
-							         <td>${user.username}</td>  
-							         <td>${user.password}</td>
-							         <td><a href="edit?userid=${user.userId}">Edit</a></td>  
-							         <td><a href="delete?userid=${user.userId}">Delete</a></td>  
-							        </tr>  
-							       </c:forEach>  
-							       <tr><td colspan="7"><a href="register">Add New User</a></td></tr>  
-							      </table>  
-							      
-							     </center>  
-							
+						<div id="tab-4">
+							<center>  
+								<h1>User List | uPortal </h1>  
+								<table class="pure-table pure-table-striped"> 
+									<thead> 
+										<tr>  
+											<th>User Id</th>  
+											<th>First Name</th>  
+											<th>Last Name</th>  
+											<th>Email</th>  
+											<th>Username</th>
+											<th>Password</th>  
+											<th>Edit</th>  
+											<th>Delete</th>
+										</tr>  
+									</thead>
+									<tbody>
+										<c:forEach var="user" items="${userList}">  
+											<tr>  
+												<td>${user.userId}</td>  
+												<td>${user.firstName}</td>  
+												<td>${user.lastName}</td>  
+												<td>${user.email}</td>  
+												<td>${user.username}</td>  
+												<td>${user.password}</td>
+												<td><a href="edit?userid=${user.userId}">Edit</a></td>  
+												<td><a href="delete?userid=${user.userId}">Delete</a></td>  
+											</tr>  
+										</c:forEach>  
+										<tr><td colspan="8"><a href="register">Add New User</a></td></tr>  
+									</tbody>
+								</table>  
+							</center>  				
 						</div>
-						<div id="tab-5" class="tab">
+						<div id="tab-5">
 							<article>
-								<style>  
-								    body {  
-								     font-size: 20px;  
-								     color: teal;  
-								     font-family: Calibri;  
-								    }  
-								      
-								    td {  
-								     font-size: 15px;  
-								     color: black;  
-								     width: 100px;  
-								     height: 22px;  
-								     text-align: center;  
-								    }  
-								    .heading {  
-								     font-size: 18px;  
-								     color: white;  
-								     font: bold;  
-								     background-color: orange;  
-								     border: thick;  
-								    }  
-								    </style>  
-								    <body>  
-								     <center> 
-								     <b>Hotline List | uPortal </b> 
-								     <hr/>
-								      <table border="1" width="95%" id="tblData">  
-								      <col width="5%">
-								      <col width="30%">
-								      <col width="55%">
-								      <col width="10%">
-								       <tr>  
-								        <td class="heading">ID</td>
-								        <td class="heading">Entity Name</td>  
-								        <td class="heading">Description</td>  
-								        <td class="heading">Options</td>
-								       </tr>  
-								       
-								       <c:forEach var="tel" items="${hotlineList}">
-								        <tr>  
-								       	 <td>${tel.getValue()}</td>
-								         <td>${tel.getLabel()}</td>  
-								         <td>${tel.getTelInfo()}</td>
-								         <td><button class="btnEdit">Edit</button><button class="btnDelete">Delete</button></td>
-								        </tr>  
-								       </c:forEach>
-								       <tbody>
-								       </tbody>    
-								      </table>  
-								      <button id="btnAdd">add new</button>
-								     </center>  
-								 <p id="status"></p>
-								 <ul class="states">
+								<center> 
+									<h1>Hotline List | uPortal </h1> 
+									<table class="pure-table pure-table-striped" width="95%" id="tblData">  
+										<col width="5%">
+										<col width="30%">
+										<col width="55%">
+										<col width="10%">
+										<thead>
+											<tr>  
+												<th>ID</th>
+												<th>Entity Name</th>  
+												<th>Description</th>  
+												<th>Options</th>  
+											</tr>  
+										</thead>
+										<tbody>
+											<c:forEach var="tel" items="${hotlineList}">
+												<tr>  
+													<td>${tel.getValue()}</td>
+													<td>${tel.getLabel()}</td>  
+													<td>${tel.getTelInfo()}</td>
+													<td>
+														<button class="pure-button" id="modifyHtln">Edit</button>
+														<button class="pure-button" id="modifyHtln">Delete</button>
+													</td>
+												</tr>  
+											</c:forEach>
+										</tbody>    
+									</table>  
+									<button class="pure-button" id="btnAdd">add new</button>
+								</center>  
+								<p id="status"></p>
+								<ul class="states">
 									<li class="warning">When editing hotline numbers, please separate them with asterisk.</li>
 									<li class="warning">Saving duplicate IDs will remove the older entry.</li>
 								</ul>
@@ -254,7 +158,7 @@
 									<h1>Settings</h1>
 									<p>Configure admin control panel here</p>
 									<c:if test="${reset_success == true}">
-									<p><b>The hit counter was successfully reseted</b></p>
+									<p><b>The hit counter was successfully reset</b></p>
 									</c:if>
 									
 									<br/>
